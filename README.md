@@ -11,14 +11,13 @@ Q2 - overloaded the < operator so the standart library sort algorithm sorts the 
 
 Q3 - Implemented the given formula for twice signed area in isAntiClockwise and isCollinear functions
 
-Q4 - Used Q3 formula to create doIntersct function that checks if given line segments intersect. It requires a bit more explanation:
+Q4 - Used Q3 formula to create doIntersect function that checks if given line segments intersect. It requires a bit more explanation:
 Two segments(a1, b1) and (a2, b2) intersect if one of the conditions is passed:
 1. General case - (a1, b1, a2) and (a1, b1, b2) have different orientations and (a2, b2, a1) and (a2, b2, b1) have different orientations.
-2. Special case - (a1, b1, a2), (a1, b1, b2), (a2, b2, a1), and (a2, b2, b1) are all collinear and the x-projections of (a1, b1) and (a2, b2) intersect
-and the y-projections of (a1, b1) and (a2, b2) intersect. 
+2. Special case - (a1, b1, a2), (a1, b1, b2), (a2, b2, a1), and (a2, b2, b1) are all collinear and the x-projections of (a1, b1) and (a2, b2) intersect and the y-projections of (a1, b1) and (a2, b2) intersect. 
 
 Q5 - Used the function doIntersect from Q4 to create a new function isInside that checks if the given point is inside the specified polygon:
-1. The algorithms draws a long imaginary line parallel to the x axis from the specified point.
+1. The algorithm draws a long imaginary line parallel to the x axis from the specified point.
 2. It uses the doIntersect function to check how many times the imaginary line intersects with the polygon edges and if the imaginary line is collinear with any of them.
 3. It determines that the point is inside the polygon if the number of intersections is odd or if the point lies on the edge of the polygon.
 
@@ -31,7 +30,6 @@ Q2 - Outputted the pairings of each round to a .txt file - the pairs are all in 
 
 Q3 - Introduced a simple modification - for the first half of the rounds I would put first player on the vector against the last and for the second half I inversed the order and put the last against the first.
 
-Bonus Question - for the odd number of players I introduced a dummy player 0 and put it in the front of the players vector. Then I fixed it and rotated everyone as before, just the person that matched with 
-player 0 that round would not play.
+Bonus Question - for the odd number of players I introduced a dummy player 0 and put it in the front of the players vector. Then I fixed it and rotated everyone as before, just the person that matched with player 0 would not play that round.
 
 If you require any  additional information please contact me via sarvaaurimas@gmail.com
