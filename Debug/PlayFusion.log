@@ -1,0 +1,7 @@
+﻿  PartA.cpp
+c:\users\aurimas\documents\visual studio 2015\projects\playfusion\playfusion\parta.cpp(21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\aurimas\documents\visual studio 2015\projects\playfusion\playfusion\parta.cpp(116): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\aurimas\documents\visual studio 2015\projects\playfusion\playfusion\parta.cpp(119): warning C4018: '<': signed/unsigned mismatch
+c:\users\aurimas\documents\visual studio 2015\projects\playfusion\playfusion\parta.cpp(130): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  PlayFusion.vcxproj -> C:\Users\Aurimas\Documents\Visual Studio 2015\Projects\PlayFusion\Debug\PlayFusion.exe
+  PlayFusion.vcxproj -> C:\Users\Aurimas\Documents\Visual Studio 2015\Projects\PlayFusion\Debug\PlayFusion.pdb (Partial PDB)
